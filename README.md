@@ -7,16 +7,6 @@ Uncover the factors that lead to employee attrition and explore important questi
 
 ## Data Card
 
-| Variable name             | Description                                                                |
-|---------------------------|----------------------------------------------------------------------------|
-| `Education`               |1='Below College', 2='College', 3='Bachelor', 4='Master', 5='Doctor'        |
-| `EnvironmentSatisfaction` |1='Low', 2='Medium', 3='High', 4='Very High'                                |
-| `JobInvolvement`          |1='Low', 2='Medium', 3='High', 4='Very High'                                |
-| `JobSatisfaction`         |1='Low', 2='Medium', 3='High', 4='Very High'                                |
-| `PerformanceRating`       |1='Low', 2='Good', 3='Excellent', 4='Outstanding'                           |
-| `RelationshipSatisfaction`|1='Low', 2='Medium', 3='High', 4='Very High'                                |
-| `WorkLifeBalance`         |1='Bad', 2='Good', 3='Better', 4='Best'                                     |
-
 <p>The dataset contains information gathered from a sample of 1,470 employees at IBM. After removing variables unrelated to the study (<code>EmployeeNumber</code>, <code>EmployeeCount</code>, <code>over18</code>, and <code>StandardHours</code>), the 31 variables are:</p>
 <ul>
 <li><code>Attrition</code> - Categorical - Indicates if the employee left the company (<code>Yes</code>) or is still employed (<code>No</code>).</li>
@@ -45,11 +35,19 @@ Uncover the factors that lead to employee attrition and explore important questi
 <li><code>StockOptionLevel</code> - Numerical - Indicates the level of stock options or equity-based compensation for each employee.</li>
 <li><code>TotalWorkingYears</code> - Numerical - Represents the total number of years of work experience for each employee.</li>
 <li><code>TrainingTimesLastYear</code> - Numerical - Represents the number of training sessions attended by each employee in the last year.</li>
-<li><code>WorkLifeBalance</code> - Numerical - Represents the work life balance level of each employee.</li>
+<li><code>WorkLifeBalance</code> - Numerical - Represents the work-life balance level of each employee.</li>
 <li><code>YearsAtCompany</code> - Numerical - Indicates the number of years each employee has been working at IBM.</li>
 <li><code>YearsInCurrentRole</code> - Numerical - Represents the number of years each employee has been in their current job role.</li>
 <li><code>YearsSinceLastPromotion</code> - Numerical - Indicates the number of years since each employee's last promotion.</li>
 <li><code>YearsWithCurrManager</code> - Numerical - Represents the number of years each employee has been working with their current manager.</li>
 </ul>
 
-
+| Variable name             | Description                                                                |
+|---------------------------|----------------------------------------------------------------------------|
+| `Education`               |1='Below College', 2='College', 3='Bachelor', 4='Master', 5='Doctor'        |
+| `EnvironmentSatisfaction` |1='Low', 2='Medium', 3='High', 4='Very High'                                |
+| `JobInvolvement`          |1='Low', 2='Medium', 3='High', 4='Very High'                                |
+| `JobSatisfaction`         |1='Low', 2='Medium', 3='High', 4='Very High'                                |
+| `PerformanceRating`       |1='Low', 2='Good', 3='Excellent', 4='Outstanding'                           |
+| `RelationshipSatisfaction`|1='Low', 2='Medium', 3='High', 4='Very High'                                |
+| `WorkLifeBalance`         |1='Bad', 2='Good', 3='Better', 4='Best'                                     |
