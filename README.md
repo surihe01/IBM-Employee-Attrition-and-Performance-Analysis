@@ -17,4 +17,39 @@ Uncover the factors that lead to employee attrition and explore important questi
 | `RelationshipSatisfaction`|1='Low', 2='Medium', 3='High', 4='Very High'                                |
 | `WorkLifeBalance`         |1='Bad', 2='Good', 3='Better', 4='Best'                                     |
 
+<p>The dataset contains information gathered from a sample of 1,470 employees at IBM. After removing variables unrelated to the study (<code>EmployeeNumber</code>, <code>EmployeeCount</code>, <code>over18</code>, and <code>StandardHours</code>), the 31 variables are:</p>
+<ul>
+<li><code>Attrition</code> - Categorical - Indicates if the employee left the company (<code>Yes</code>) or is still employed (<code>No</code>).</li>
+<li><code>Age</code> - Numerical - Represents the age of each employee.</li>
+<li><code>BusinessTravel</code> - Categorical - Indicates the frequency of business travel.</li>
+<li><code>DailyRate</code> - Numerical - Represents the daily rate of pay for each employee.</li>
+<li><code>Department</code> - Categorical - Specifies the department to which each employee belongs.</li>
+<li><code>DistanceFromHome</code> - Numerical - Indicates the distance in miles between an employee's home and workplace.</li>
+<li><code>Education</code> - Numerical - Represents the highest level of education.</li>
+<li><code>EducationField</code> - Categorical - Indicates the field of study for each employee's education.</li>
+<li><code>EnvironmentSatisfaction</code> - Numerical - Self-reported satisfaction with the work environment.</li>
+<li><code>Gender</code> - Categorical - Indicates the gender of each employee.</li>
+<li><code>HourlyRate</code> - Numerical - Represents the hourly rate of pay for each employee.</li>
+<li><code>JobInvolvement</code> - Numerical - Self-reported level of job involvement or engagement.</li>
+<li><code>JobLevel</code> - Numerical - Represents the hierarchical level or rank of each employee's job.</li>
+<li><code>JobRole</code> - Categorical - Specifies the specific job role or position held by each employee.</li>
+<li><code>JobSatisfaction</code> - Numerical - Self-reported satisfaction with the job.</li>
+<li><code>MaritalStatus</code> - Categorical - Indicates the marital status of each employee.</li>
+<li><code>MonthlyIncome</code> - Numerical - Represents the monthly income or earnings of each employee.</li>
+<li><code>MonthlyRate</code> - Numerical - Represents the monthly rate of pay for each employee.</li>
+<li><code>NumCompaniesWorked</code> - Numerical - Indicates the number of companies each employee worked for before the current one.</li>
+<li><code>OverTime</code> - Binary - Indicates if the employee works overtime.</li>
+<li><code>PercentSalaryHike</code> - Numerical - Represents the percentage increase in salary during the last hike.</li>
+<li><code>PerformanceRating</code> - Numerical - Represents the performance rating or evaluation of each employee.</li>
+<li><code>RelationshipSatisfaction</code> - Numerical - Represents the satisfaction socre of colleague relationship of each employee.</li>
+<li><code>StockOptionLevel</code> - Numerical - Indicates the level of stock options or equity-based compensation for each employee.</li>
+<li><code>TotalWorkingYears</code> - Numerical - Represents the total number of years of work experience for each employee.</li>
+<li><code>TrainingTimesLastYear</code> - Numerical - Represents the number of training sessions attended by each employee in the last year.</li>
+<li><code>WorkLifeBalance</code> - Numerical - Represents the work life balance level of each employee.</li>
+<li><code>YearsAtCompany</code> - Numerical - Indicates the number of years each employee has been working at IBM.</li>
+<li><code>YearsInCurrentRole</code> - Numerical - Represents the number of years each employee has been in their current job role.</li>
+<li><code>YearsSinceLastPromotion</code> - Numerical - Indicates the number of years since each employee's last promotion.</li>
+<li><code>YearsWithCurrManager</code> - Numerical - Represents the number of years each employee has been working with their current manager.</li>
+</ul>
+
 
